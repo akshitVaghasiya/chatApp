@@ -4,6 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
+import { API_KEY } from '../config';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -11,7 +12,7 @@ import { getStorage } from "firebase/storage";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
     // apiKey: import.meta.env.VITE_API_KEY,
-    apiKey: "AIzaSyDwCjqAldtrzUgNEXAGP8qJulrq_BKLIRg",
+    apiKey: API_KEY,
     authDomain: "chatapp-8d7cb.firebaseapp.com",
     projectId: "chatapp-8d7cb",
     storageBucket: "chatapp-8d7cb.appspot.com",
